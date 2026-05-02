@@ -21,7 +21,7 @@ docker build --platform linux/amd64 -t trimui-sdk .
 docker run -it --rm -v $(pwd):/app trimui-sdk bash
 ```
 
-For Linux (Untested):
+For Linux:
 ```bash
 docker build -t trimui-sdk .
 docker run -it --rm -v $(pwd):/app trimui-sdk bash
