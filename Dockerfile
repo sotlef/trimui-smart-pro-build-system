@@ -8,6 +8,8 @@ RUN apt update && apt install -y \
     libstdc++6 \
     gcc \
     make \
+    cmake \
+    pkg-config \
     wget \
     tar \
     libssl-dev \

@@ -32,3 +32,10 @@
 *.app
 
 *.DS_Store
+
+# Build directories
+build/
+cmake-build*/
+
+# Editor backups
+*~

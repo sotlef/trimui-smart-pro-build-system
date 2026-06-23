@@ -12,6 +12,8 @@
 #define BUTTON_R2 17
 #define MAX_BUTTON_INDEX 18
 
+inline constexpr int variable = 0;
+
 struct Color {
     uint8_t r, g, b, a;
     
